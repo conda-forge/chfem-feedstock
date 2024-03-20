@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/cortezpedro/chfem/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 492acd0561054c5bdecc6b2f2694df9d32b430c784f6715a64722af9ea58ec3d
+  sha256: 2f72725e49e5b01f3b3fd0dd0109e141aa2a4ba0cf8a0d458dade5814f1a1cc5
 
 build:
   number: 1
