@@ -33,7 +33,7 @@ requirements:
   run:
     - python
     - {{ pin_compatible('numpy') }}
-    - ocl-icd-system
+    - ocl-icd-system  # [linux]
 
 test:
   imports:
