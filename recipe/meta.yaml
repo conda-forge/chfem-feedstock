@@ -10,7 +10,7 @@ source:
   sha256: 492acd0561054c5bdecc6b2f2694df9d32b430c784f6715a64722af9ea58ec3d
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   skip: true  # [osx]
   skip: true  # [cuda_compiler_version in (undefined, "None")]
