@@ -10,7 +10,7 @@ source:
   sha256: 5ff18999332449cfe745a51e460efd7ea313d5cb99876d5fcadbda5d771fa11d
 
 build:
-  number: 2
+  number: 3
   script: {{ PYTHON }} -m pip install . -vv
   skip: true  # [osx]
   skip: true  # [cuda_compiler_version in (undefined, "None")]
@@ -21,6 +21,7 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
     - {{ compiler('cuda') }}
     - libgomp  # [linux]
